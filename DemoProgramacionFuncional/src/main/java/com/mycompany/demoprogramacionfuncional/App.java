@@ -35,6 +35,10 @@ public class App
         
         imprimirSuma(5,6,calc4);
         imprimirSuma(5,6,(a,b)->a+b);
+        
+        imprimirSuma(5,6,(a,b)->{
+        System.out.println("Holis");
+        return a+b;});
     }
     //Funcion de tipo High-Order
     public static void imprimirSuma(int a,int b ,Calculadora calc)
