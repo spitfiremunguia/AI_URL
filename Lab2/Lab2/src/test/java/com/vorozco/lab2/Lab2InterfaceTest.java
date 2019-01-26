@@ -36,7 +36,7 @@ public class Lab2InterfaceTest {
         List<Double> listadoA = Arrays.asList(1.0,2.0, 3.0, 5.0, 7.0, 11.0);
         List<Double> listadoB = Arrays.asList(1.1,2.0, 3.1, 5.0, 7.1, 11.0);
                 
-        List<Double> resultado = Arrays.asList(2.0, 5.0, 11.0,15.0);
+        List<Double> resultado = Arrays.asList(2.0, 5.0, 11.0);
         List<Double> obtenido = lab2Impl.intersection(listadoA, listadoB);
         
         assertThat(obtenido, 

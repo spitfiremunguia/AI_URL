@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vorozco.lab2.Lab2InterfaceTest" time="0.126" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.vorozco.lab2.Lab2InterfaceTest" time="0.182" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\david\Desktop\Lab2\Lab2\target\test-classes;C:\Users\david\Desktop\Lab2\Lab2\target\classes;C:\Users\david\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2\target\test-classes;C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2\target\classes;C:\Users\david\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,21 +18,21 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\david\AppData\Local\Temp\surefire5005241638896592247\surefirebooter9120383755769847304.jar C:\Users\david\AppData\Local\Temp\surefire5005241638896592247 2019-01-26T14-28-03_739-jvmRun1 surefire5133962200282457268tmp surefire_09088023516325559696tmp"/>
+    <property name="sun.java.command" value="C:\Users\david\AppData\Local\Temp\surefire7530584298650221908\surefirebooter4921813853907911089.jar C:\Users\david\AppData\Local\Temp\surefire7530584298650221908 2019-01-26T16-16-26_544-jvmRun1 surefire5309320026002900521tmp surefire_0576152990416411264tmp"/>
     <property name="test" value="com.vorozco.lab2.Lab2InterfaceTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\david\Desktop\Lab2\Lab2\target\test-classes;C:\Users\david\Desktop\Lab2\Lab2\target\classes;C:\Users\david\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2\target\test-classes;C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2\target\classes;C:\Users\david\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\david\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\david"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="basedir" value="C:\Users\david\Desktop\Lab2\Lab2"/>
+    <property name="basedir" value="C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\david\AppData\Local\Temp\surefire5005241638896592247\surefirebooter9120383755769847304.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\david\AppData\Local\Temp\surefire7530584298650221908\surefirebooter4921813853907911089.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -49,7 +49,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\david\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_144"/>
-    <property name="user.dir" value="C:\Users\david\Desktop\Lab2\Lab2"/>
+    <property name="user.dir" value="C:\Users\david\Documents\IARepos\AI_URL\Lab2\Lab2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -62,8 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testSum" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.064"/>
-  <testcase name="testIntersection" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.011"/>
-  <testcase name="testMutate" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.002"/>
-  <testcase name="testPrimos" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.004"/>
+  <testcase name="testSum" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.1"/>
+  <testcase name="testIntersection" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.015"/>
+  <testcase name="testMutate" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.004"/>
+  <testcase name="testPrimos" classname="com.vorozco.lab2.Lab2InterfaceTest" time="0.006"/>
 </testsuite>
